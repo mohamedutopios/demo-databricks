@@ -1,0 +1,4 @@
+ticket_id;ligne;date_heure;code_magasin;sku;quantite;prix_unitaire;remise_pct;carte_fidelite
+T20260915-MAG01-0002;1;15/09/2026 19:09;MAG01;SKU-0028;3;89,90;0;192
+T20260915-MAG01-0016;2;15/09/2026 14:51;MAG01;SKU-0026;4;89,90;0;
+T20260915-MAG02-0008;1;15/09/2026 14:55;MAG02;SKU-0043;2;12,90;20;

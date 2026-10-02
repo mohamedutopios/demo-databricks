@@ -1,0 +1,96 @@
+{
+  "apres_lot1": {
+    "bronze_lignes": {
+      "erp_clients": 300,
+      "erp_produits": 60,
+      "erp_magasins": 8,
+      "erp_commandes": 210,
+      "erp_lignes_commande": 527,
+      "magasins_ventes_brut": 13540,
+      "magasins_fichiers": 29,
+      "web_commandes_brut": 962,
+      "web_fichiers": 28
+    },
+    "silver_vente_ligne_par_canal": {
+      "ERP": 527,
+      "MAGASIN": 13533,
+      "WEB": 1873
+    },
+    "rejets_par_source_motif": {
+      "MAGASIN | date invalide": 1,
+      "MAGASIN | magasin inconnu": 1,
+      "MAGASIN | produit inconnu": 1,
+      "MAGASIN | quantité invalide": 1,
+      "WEB | JSON invalide": 1,
+      "WEB | commande sans article": 1,
+      "WEB | quantité invalide": 1
+    },
+    "fact_ventes_lignes_par_canal": {
+      "ERP": 508,
+      "MAGASIN": 13533,
+      "WEB": 1762
+    },
+    "fact_ventes_ca_net_par_canal": {
+      "ERP": "328816.91",
+      "MAGASIN": "1746832.98",
+      "WEB": "176215.51"
+    },
+    "fact_ventes_ca_net_total": "2251865.40",
+    "fact_ventes_client_inconnu_par_canal": {
+      "MAGASIN": 7961,
+      "WEB": 204
+    },
+    "dim_client_lignes_total": 301,
+    "dim_client_versions_courantes_hors_inconnu": 300,
+    "client_360_lignes": 300
+  },
+  "apres_lot2": {
+    "bronze_lignes": {
+      "erp_clients": 303,
+      "erp_produits": 60,
+      "erp_magasins": 8,
+      "erp_commandes": 229,
+      "erp_lignes_commande": 574,
+      "magasins_ventes_brut": 14493,
+      "magasins_fichiers": 31,
+      "web_commandes_brut": 1037,
+      "web_fichiers": 30
+    },
+    "silver_vente_ligne_par_canal": {
+      "ERP": 574,
+      "MAGASIN": 14486,
+      "WEB": 2027
+    },
+    "rejets_par_source_motif": {
+      "MAGASIN | date invalide": 1,
+      "MAGASIN | magasin inconnu": 1,
+      "MAGASIN | produit inconnu": 1,
+      "MAGASIN | quantité invalide": 1,
+      "WEB | JSON invalide": 1,
+      "WEB | commande sans article": 1,
+      "WEB | quantité invalide": 1
+    },
+    "fact_ventes_lignes_par_canal": {
+      "ERP": 550,
+      "MAGASIN": 14486,
+      "WEB": 1911
+    },
+    "fact_ventes_ca_net_par_canal": {
+      "ERP": "355586.43",
+      "MAGASIN": "1874110.21",
+      "WEB": "190999.99"
+    },
+    "fact_ventes_ca_net_total": "2420696.63",
+    "fact_ventes_client_inconnu_par_canal": {
+      "MAGASIN": 8520,
+      "WEB": 212
+    },
+    "dim_client_lignes_total": 304,
+    "dim_client_versions_courantes_hors_inconnu": 301,
+    "client_360_lignes": 301
+  },
+  "reperes": {
+    "commande_erp_annulee_lot2": 100131,
+    "commande_web_annulee_lot2": "WEB-20260910-0004"
+  }
+}
